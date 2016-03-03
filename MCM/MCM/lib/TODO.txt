@@ -1,0 +1,9 @@
+CLI:
+    Clean up run(), other parts
+GUI:
+    Error log viewer
+    Notify in window title if file has unsaved changes
+    Only display confirmation prompt if there are unsaved changes
+Other:
+    Python 3 release
+    Windows/OSX "native" packages

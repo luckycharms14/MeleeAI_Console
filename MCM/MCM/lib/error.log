@@ -1,0 +1,200 @@
+
+ERROR (2015-06-10 14:03:56,888): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+
+
+ERROR (2015-06-10 14:03:56,888): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+
+
+ERROR (2015-06-10 14:04:39,413): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+2: Error: junk at end of line, first unrecognized character is `0'
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+2: Error: junk at end of line, first unrecognized character is `0'
+
+
+ERROR (2015-06-10 14:04:39,413): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+2: Error: junk at end of line, first unrecognized character is `0'
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+1: Error: junk at end of line, first unrecognized character is `0'
+2: Error: junk at end of line, first unrecognized character is `0'
+
+
+ERROR (2015-06-10 14:10:45,456): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-10 14:10:45,456): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-10 14:11:09,463): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-10 14:11:09,463): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "C:\Users\drcappex.AMR\Documents\Software\Tex\Tools\DRGN's DOL Manager\pyiiasmh-2.0.0-win32\pyiiasmh-2.0.0-win32\ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-11 09:25:48,072): Assembler messages:
+Error: can't open #default, load win ID for reading: No such file or directory
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+Error: can't open #default, load win ID for reading: No such file or directory
+
+
+ERROR (2015-06-11 09:25:48,072): Assembler messages:
+Error: can't open #default, load win ID for reading: No such file or directory
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+Error: can't open #default, load win ID for reading: No such file or directory
+
+
+ERROR (2015-06-11 09:26:46,210): Assembler messages:
+Error: can't open lwz r4,8(r29) for reading: No such file or directory
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+Error: can't open lwz r4,8(r29) for reading: No such file or directory
+
+
+ERROR (2015-06-11 09:26:46,210): Assembler messages:
+Error: can't open lwz r4,8(r29) for reading: No such file or directory
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+Error: can't open lwz r4,8(r29) for reading: No such file or directory
+
+
+ERROR (2015-06-11 09:27:07,734): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-11 09:27:07,734): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-11 09:27:38,914): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-11 09:27:38,914): Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 73, in assemble
+    geckocodes = ppctools.asm_opcodes(tmpdir, inputfile, outputfile)
+  File "ppctools.py", line 103, in asm_opcodes
+    raise RuntimeError(errormsg)
+RuntimeError: Assembler messages:
+0: Warning: end of file not at end of a line; newline inserted
+
+
+ERROR (2015-06-11 10:51:35,263): Non-hexadecimal digit found
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 126, in disassemble
+    f.write(binascii.a2b_hex(rawhex))
+TypeError: Non-hexadecimal digit found
+
+ERROR (2015-06-11 10:51:35,263): Non-hexadecimal digit found
+Traceback (most recent call last):
+  File "pyiiasmh_cli.py", line 126, in disassemble
+    f.write(binascii.a2b_hex(rawhex))
+TypeError: Non-hexadecimal digit found

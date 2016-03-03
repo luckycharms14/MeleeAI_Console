@@ -1,0 +1,80 @@
+Unlock All Characters, Stages, & Random Stage Select
+- All characters are available (does not save to memory card)
+- All stages are available (does not save to memory card)
+- Random stage select is available (does not save to memory card)
+[standardtoaster]
+1.02 ------ 0x1614A8 ---- A0BF0000 -> 38A007FF
+----------- 0x16109C ---- A0BF0000 -> 38A007FF
+----------- 0x170160 ---- A0BF0000 -> 38A007FF
+
+    -==-
+    
+Always Skip the Results Screen (no change to KO stars)
+Stock counter doesn't show up with this version.
+[Sham Rock]
+1.02 ----- 0x801A415C ---- 3803FFFF -> Branch
+
+3803FFFF 2C000004
+40820008 38000000
+60000000 00000000
+
+    -==-
+    
+Default Tournament Settings
+[Magus, et all]
+1.02 ----- 0x803D4A48 --- 00340002 -> 00340102
+1.02 ----- 0x803D4A4C --- 03000A00 -> 04000A00
+1.02 ----- 0x803D4A50 --- 00000100 -> 08010100
+1.02 ----- 0x803D4A60 --- 02000000 -> FF000000
+1.02 ----- 0x803D4A70 --- 01010101 -> 00000000
+1.02 ----- 0x803D4A74 --- 00010000 -> 3C000000
+1.02 ----- 0x803D4A78 --- FFFFFFFF -> E70000B0
+
+    -==-
+
+Spoof Controller Plugin for P2
+Makes the game think that a controller is plugged in for player 2.
+[Achilles]
+1.02 ------ 0x3737BC ---- 90030014 -> 38000000
+
+    -==-
+Unlock All Characters, Stages, & Random Stage Select
+- All characters are available (does not save to memory card)
+- All stages are available (does not save to memory card)
+- Random stage select is available (does not save to memory card)
+[standardtoaster]
+1.02 ------ 0x1614A8 ---- A0BF0000 -> 38A007FF
+----------- 0x16109C ---- A0BF0000 -> 38A007FF
+----------- 0x170160 ---- A0BF0000 -> 38A007FF
+
+    -==-
+    
+Always Skip the Results Screen (no change to KO stars)
+Stock counter doesn't show up with this version.
+[Sham Rock]
+1.02 ----- 0x801A415C ---- 3803FFFF -> Branch
+
+3803FFFF 2C000004
+40820008 38000000
+60000000 00000000
+
+    -==-
+    
+Default Tournament Settings
+[Magus, et all]
+1.02 ----- 0x803D4A48 --- 00340002 -> 00340102
+1.02 ----- 0x803D4A4C --- 03000A00 -> 04000A00
+1.02 ----- 0x803D4A50 --- 00000100 -> 08010100
+1.02 ----- 0x803D4A60 --- 02000000 -> FF000000
+1.02 ----- 0x803D4A70 --- 01010101 -> 00000000
+1.02 ----- 0x803D4A74 --- 00010000 -> 3C000000
+1.02 ----- 0x803D4A78 --- FFFFFFFF -> E70000B0
+
+    -==-
+
+Spoof Controller Plugin for P2
+Makes the game think that a controller is plugged in for player 2.
+[Achilles]
+1.02 ------ 0x3737BC ---- 90030014 -> 38000000
+
+    -==-

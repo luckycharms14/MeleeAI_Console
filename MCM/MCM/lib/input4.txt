@@ -1,0 +1,22 @@
+#Hold Z for clapping [losing] win animation
+#inject @ 800bead4
+
+#default, load win ID
+lwz r4,8(r29)
+#if not winning, then ignore
+cmpwi r4,3
+bge- END
+lis r3,0x804c
+ori r3,r3,0x1fac
+#load player slot
+lbz r12,0x6c(r31)
+mulli r12,r12,0x44
+#load buttons pressed during this frame
+lwzx r12,r12,r3
+#pressing Z?
+rlwinm. r3,r12,0,27,27
+#if not, then ignore
+beq- END
+#load losing animation ID
+li r4,4
+END:

@@ -1,0 +1,12 @@
+
+ERROR (2016-02-03 02:40:04,855): Failed to open 'c:\users\tom\appdata\local\temp\pyiiasmh-dbfvhh\code.bin'
+Traceback (most recent call last):
+  File "D:\MeleeAI\Melee Code Manager - v2.0\Melee Code Manager - v2.0\lib\ppctools.py", line 135, in asm_opcodes
+    f = open(binfile, "rb")
+IOError: [Errno 2] No such file or directory: 'c:\\users\\tom\\appdata\\local\\temp\\pyiiasmh-dbfvhh\\code.bin'
+
+ERROR (2016-02-03 02:40:04,855): Failed to open 'c:\users\tom\appdata\local\temp\pyiiasmh-dbfvhh\code.bin'
+Traceback (most recent call last):
+  File "D:\MeleeAI\Melee Code Manager - v2.0\Melee Code Manager - v2.0\lib\ppctools.py", line 135, in asm_opcodes
+    f = open(binfile, "rb")
+IOError: [Errno 2] No such file or directory: 'c:\\users\\tom\\appdata\\local\\temp\\pyiiasmh-dbfvhh\\code.bin'
