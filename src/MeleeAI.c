@@ -1,43 +1,55 @@
-#include "GlobalHeader.h"
+#include <mml/ai.h>
+#include <mml/system.h>
+#include <mml/gctypes.h>
 
-void do_main() {
+#include "cpuLogic.h"
 
-    //Initialize values
-    if (INIT_KEY != 0x00C589EF) {
-        INIT_KEY = 0x00C589EF;
-        AI_ON = 0;
-    }
+static char heap[2000];
+static bool init_run = false;
 
-    //toggle AI to run when game is entered with CPU P2
-    if (AI_ON && !IN_GAME) {
-        AI_ON = 0;
-        P2_TYPE = 0x01;
-    } else if (!AI_ON && IN_GAME && P2_TYPE == 0x01) {
-        AI_ON = 1;
-        IQ_SIZE = 0;
-        EQ_SIZE = 0;
-        P2_TYPE = 0x00;
-    }
-
-    if (IN_GAME && AI_ON) {
-
-       if (EQ_SIZE > 0) {
-            void (*CheckEQ)() = (void*) CHECK_EQ_FPTR;
-            CheckEQ();
-        }
-        if (IQ_SIZE > 0) { 
-            void (*CheckIQ)() = (void*) CHECK_IQ_FPTR;
-            CheckIQ();
-        }
-        if (EQ_SIZE == 0 && IQ_SIZE == 0) {
-            void (*LoadQueue)() = (void*) LOAD_QUEUE_FPTR;
-            LoadQueue();
-        }
-        
-        void (*WriteController)() = (void*) WRITE_CONTROLLER_FPTR;
-        WriteController();
-
-    }
-
+static void init()
+{
+    initHeap(heap, heap + sizeof(heap));
+    init_run = true;
 }
+
+static void loadDefaultLogic()
+{
+    addLogic(&cpuPlayer, &respawnLogic);
+    addLogic(&cpuPlayer, &hitTechLogic);
+    addLogic(&cpuPlayer, &getOffGroundLogic);
+    addLogic(&cpuPlayer, &hitDiLogic);
+    addLogic(&cpuPlayer, &throwDiLogic);
+    addLogic(&cpuPlayer, &recoveryLogic);
+    addLogic(&cpuPlayer, &onLedgeLogic);
+    addLogic(&cpuPlayer, &exitHitstunLogic);
+}
+
+void _main()
+{
+    if (!init_run) { init(); }
+
+    if (needLogic(&cpuPlayer)) { loadDefaultLogic(); }
+
+    updateAI(&cpuPlayer);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
