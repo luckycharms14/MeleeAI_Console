@@ -4,12 +4,16 @@
 
 #include "cpuLogic.h"
 
-static char heap[2000];
 static bool init_run = false;
+
+void boot()
+{
+    limitGameMemory((void*) 0x81780000);
+}
 
 static void init()
 {
-    initHeap(heap, heap + sizeof(heap));
+    initHeap((void*) 0x81780000, (void*) 0x817f8ab0);
     init_run = true;
 }
 
@@ -27,29 +31,12 @@ static void loadDefaultLogic()
 
 void _main()
 {
-    if (!init_run) { init(); }
+    if (!init_run) {init();}
 
-    if (needLogic(&cpuPlayer)) { loadDefaultLogic(); }
+    if (needLogic(&cpuPlayer)) {loadDefaultLogic();}
 
     updateAI(&cpuPlayer);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
